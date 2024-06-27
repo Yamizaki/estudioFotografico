@@ -1,0 +1,25 @@
+
+.bg_hover_ef{
+    margin-left: 10px;
+    transition: 1s; 
+}
+
+.bg_hover_ef:hover{
+    background-color: #aae710!important;
+    color: black;
+
+}
+
+.nav__hover_ef:hover{
+    color: #aae710!important;
+}
+
+
+.absolutely-centered {
+    left: 50%; /* Mueve el div hacia la derecha el 50% del contenedor */
+    transform: translate(-50%, 0%); /* Centra el div correctamente */
+    width: 100%;
+    background-color: #3490dc; /* Color de fondo de ejemplo */
+    color: white; /* Color de texto de ejemplo */
+    text-align: center; /* Alineación de texto centrada */
+}

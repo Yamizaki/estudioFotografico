@@ -1,0 +1,13 @@
+header {
+    background-image: url("https://get.wallhere.com/photo/1920x1080-px-computer-cubes-dark-glow-graphics-1584747.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .bg-services{
+    transition: .5s;
+  }
+
+  .bg-services:hover {
+    background-color: #aae71054;
+  }
