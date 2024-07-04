@@ -5,8 +5,8 @@ function Header() {
   return (
     <header className="py-44   text-white shadow-md ">
     <div className="mx-8 p-6">
-      <h1 className="text-6xl">Titulo empresa</h1>
-      <p className="mt-2 font-semibold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione blanditiis accusamus animi? Ut facilis impedit aliquam possimus maxime. Nobis tempora veniam iusto odio optio.</p>
+      <h1 className="text-6xl">Estudio Fotográfico <span className='span__ef'>8</span> </h1>
+      <p className="mt-4 font-semibold">Ahorra tiempo y dinero con nuestras soluciones digitales.</p>
     </div>
   
     <div className="mx-6 flex flex-wrap gap-3 p-6 md:flex-nowrap">
@@ -54,7 +54,7 @@ function Header() {
               <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
             </svg>
           </div>
-          <p className="ms-1 font-bold">Trámites en línea</p>
+          <p className="ms-1 font-bold">Documentación y más</p>
         </div>
         <p className="mt-3">Redacción y tipeo de documentos, currículums, cartas, oficios y más. Calidad y precisión garantizadas.</p>
       </div>

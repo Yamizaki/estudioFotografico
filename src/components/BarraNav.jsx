@@ -1,23 +1,24 @@
 
 import { Button, Navbar, NavbarBrand, NavbarCollapse, NavbarLink, NavbarToggle } from "flowbite-react";
 import './barranav.css'
+import logo from '../icon/logo.png'
 export default function BarraNav() {
   return (
     <Navbar fluid rounded className="absolute bg-transparent  absolutely-centered mt-7">
       <NavbarBrand href="">
-        <img src="" className="mr-3 h-6 sm:h-9 ms-5 me-5" alt="Logo" />
+        <img src={logo} className="w-32" alt="Logo" />
       </NavbarBrand>
       <div className="flex md:order-2">
-        <Button className=" bg-white bg_hover_ef text-black me-5">Contactar</Button>
+        <Button className=" bg-white bg_hover_ef text-black me-5 ">Contactar</Button>
         <NavbarToggle  />
       </div>
       <NavbarCollapse >
-        <NavbarLink href="#"  className="text-white mx-7 nav__hover_ef">
+        <NavbarLink href="#"  className="text-white mx-7 nav__hover_ef  text-base">
           Trámites
         </NavbarLink>
-        <NavbarLink href="#" className="text-white mx-7 nav__hover_ef">Fotografías</NavbarLink>
-        <NavbarLink href="#" className="text-white mx-7 nav__hover_ef">Servicios Web</NavbarLink>
-        <NavbarLink href="#" className="text-white mx-7 nav__hover_ef">Documentos</NavbarLink>
+        <NavbarLink href="#" className="text-white mx-7 nav__hover_ef text-base">Fotografías</NavbarLink>
+        <NavbarLink href="#" className="text-white mx-7 nav__hover_ef text-base">Servicios Web</NavbarLink>
+        <NavbarLink href="#" className="text-white mx-7 nav__hover_ef text-base">Documentos</NavbarLink>
       </NavbarCollapse>
     </Navbar>
   );
