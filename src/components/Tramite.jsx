@@ -3,7 +3,7 @@ import "./tramite.css";
 
 function Tramite({ precio, titulo, descripcion, pasos }) {
   return (
-    <section>
+    <section >
       <div class="plan">
         <div class="inner">
           <span class="pricing">

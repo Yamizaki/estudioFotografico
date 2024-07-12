@@ -1,11 +1,13 @@
 import React from 'react'
 import Tramite from './Tramite'
-
+import "./tramites.css";
 
 
 function Tramites({tramites}) {
     return(
-    <div>
+      <section className='bg-slate-600 py-10'>
+      <h1 className='text-6xl font-extrabold text-center mb-6'>TRAMITES - RENIEC</h1>
+    <div className=' flex flex-wrap justify-center gap-10'>
     {tramites.map((tramite, index) =>(
     <Tramite
         key={index}
@@ -17,6 +19,7 @@ function Tramites({tramites}) {
     />
     ))}
     </div>
+    </section>
   )
 }
 

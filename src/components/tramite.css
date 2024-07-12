@@ -4,7 +4,7 @@
     padding: 10px;
     background-color: #444141;
     color: #ffffff;
-    max-width: 25%;
+    width: 100%;
   }
   
 
@@ -112,3 +112,4 @@
   
     color:rgb(0, 0, 0);
   }
+
